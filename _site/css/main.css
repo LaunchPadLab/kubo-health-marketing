@@ -800,12 +800,14 @@ Company
   top: 0px;
   right: 0px;
   left: 0px;
-  padding: 20px 20px;
-  padding: 1.42857rem 1.42857rem;
   position: relative;
   text-align: center;
   width: 100%;
   z-index: 9; }
+  @media screen and (min-width: 45em) {
+    .navigation {
+      padding: 20px 20px;
+      padding: 1.42857rem 1.42857rem; } }
 
 /*-----------------------
 Logo
@@ -814,10 +816,13 @@ Logo
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  width: 210px; }
+  width: 210px;
+  margin: 20px 20px;
+  margin: 1.42857rem 1.42857rem; }
   @media screen and (min-width: 45em) {
     .logo {
-      float: left; } }
+      float: left;
+      margin: 0px; } }
   .logo:hover {
     opacity: 0.5; }
 

@@ -5,11 +5,15 @@ $desktop-nav-height: 81px;
 
 .navigation {
   @include position(absolute, 0px 0px null 0px);
-  @include rem(padding, 20px 20px);
+
   position: relative;
   text-align: center;
   width: 100%;
   z-index: 9;
+
+  @include media($tablet) {
+    @include rem(padding, 20px 20px);
+  }
 }
 
 
@@ -19,9 +23,11 @@ Logo
 .logo{
   @include transition(all 0.3s ease-in-out);
   width: 210px;
+  @include rem(margin, 20px 20px);
 
   @include media($tablet) {
     float: left;
+    @include rem(margin, 0px);
   }
 
   &:hover{
