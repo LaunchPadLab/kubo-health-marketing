@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="331px" viewBox="0 0 1440 331" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1440" height="348"></rect>
+        <linearGradient x1="2.12732214%" y1="100%" x2="101.733989%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#5DC9E3" offset="0%"></stop>
+            <stop stop-color="#AF8DD8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Marketing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Network-Management" transform="translate(0.000000, -289.000000)">
+            <g id="Group" transform="translate(0.000000, 272.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g mask="url(#mask-2)" fill="url(#linearGradient-3)" opacity="0.387737772">
+                    <g transform="translate(-31.000000, 17.000000)">
+                        <path d="M1470,331.888686 L0,331.888686 C0,331.888686 273.684795,264.459442 500.002493,238.692853 C726.32019,212.926263 888.513483,226.65866 1067.05923,173.434161 C1245.60497,120.209663 1375.33125,50.5273127 1411.06597,34.1170298 C1446.80069,17.706747 1470,0 1470,0 L1470,331.888686 Z" id="Path-3"></path>
+                        <path d="M32,331.888686 L1502,331.888686 C1502,331.888686 1228.31521,264.459442 1001.99751,238.692853 C775.67981,212.926263 613.486517,226.65866 434.940773,173.434161 C256.39503,120.209663 126.668751,50.5273127 90.9340306,34.1170298 C55.1993104,17.706747 32,0 32,0" id="Path-3-Copy"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

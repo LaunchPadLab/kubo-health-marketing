@@ -1,0 +1,152 @@
+.page-header {
+  background-color: $blue-dark;
+  height: 100%;
+  background-size: cover;
+  @include rem(padding, 20px);
+  position: relative;
+  width: 100%;
+  z-index: 1;
+
+  &:after{
+    position: absolute;
+    bottom: 0px;
+    height: 283px;
+    width: 100%;
+    left: 0;
+    right: 0px;
+  }
+
+  @include media($tablet) {
+    height: 600px;
+  }
+
+  @include media($tablet-landscape) {
+    height: 650px;
+  }
+
+  h1, p { color: $white-base;  }
+}
+
+.page-header{
+  @include rem(padding, 20px 0);
+  position: relative;
+  text-align: center;
+
+  .header-text{
+    @include animation(fade-in 0.6s ease-in);
+    @include rem(margin-top, 30px);
+    @include rem(padding, 60px 20px);
+    display: inline-block;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+
+
+    @include media($tablet){
+      @include vertical-horizontal-center;
+      width: 700px;
+      @include rem(margin-bottom, 20px);
+      @include rem(margin-top, -30px);
+    }
+
+    h1{
+      text-align: center;
+      margin: 0 auto inherit;
+      @include rem(margin-top, 30px);
+
+      @include media($tablet-landscape){
+        @include rem(margin-top, 10px);
+      }
+    }
+
+    p{
+      @include s-medium;
+    }
+  }
+
+  &:after{
+    content: "";
+    z-index: -1;
+  }
+}
+
+.call-to-action{
+  text-align: center;
+
+  a{
+    @include rem(margin, 20px 0px 0px);
+
+    @include media($tablet){
+      @include rem(margin, 20px 0px 0px 0px);
+    }
+  }
+}
+
+@keyframes fade-in-up{
+  0%{ opacity:0; @include transform(translateY(0%) translateX(-50%)); }
+  100%{ opacity:1; @include transform(translateY(-50%) translateX(-50%));}
+}
+
+@keyframes fade-in-right{
+  0%{ opacity:0; @include transform(translateX(50%)); }
+  100%{ opacity:1; @include transform(translateX(0%));}
+}
+
+@keyframes fade-in-left{
+  0%{ opacity:0; @include transform(translateX(-50%)); }
+  100%{ opacity:1; @include transform(translateX(0%));}
+}
+
+@keyframes slide-in-right{
+  0%{ @include transform(translateX(100%)); }
+  100%{ @include transform(translateX(0%));}
+}
+
+@keyframes slide-in-left{
+  0%{ @include transform(translateX(-100%)); }
+  100%{ @include transform(translateX(0%));}
+}
+
+@keyframes fade-in{
+  0%{ opacity:0; }
+  100%{ opacity:1; }
+}
+
+
+
+
+.home-header:after{
+  background: url(../images/waves.svg) no-repeat;
+}
+
+.home-header{
+  @include media($tablet-landscape){
+    height: 100vh;
+  }
+
+  .header-text{
+    @include media($tablet-landscape){
+      padding: 0px;
+      @include rem(margin-top, -60px);
+    }
+  }
+}
+
+.network-header:after{
+  background: url(../images/network.png) no-repeat center;
+  background-size: cover;
+
+  @include media($tablet-landscape){
+    height: 350px;
+  }
+}
+
+.contact-header:after{
+  @include media($tablet-landscape){
+    background: url(../images/block.svg) no-repeat center;
+    background-size: cover;
+    @include position(absolute, 0px null 0px 0px);
+    width: 50%;
+    height: 100vh;
+  }
+}

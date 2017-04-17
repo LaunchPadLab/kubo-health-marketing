@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="284px" viewBox="0 0 1440 284" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 5 + Path 5 Copy Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,3.001222 C0,1.34369286 1.34515101,4.53996011e-17 2.99545086,1.01098147e-16 L131.579801,4.4408921e-15 L218.385579,4.4408921e-15 L1436.99175,1.09357901e-17 C1438.65316,4.89611998e-18 1440,1.34004024 1440,3.001222 L1440,316.998778 C1440,318.656307 1438.66253,320 1436.99501,320 L3.00498919,320 C1.34537949,320 0,318.65996 0,316.998778 L0,3.001222 Z" id="path-1"></path>
+        <linearGradient x1="100%" y1="90.4932318%" x2="0%" y2="90.493232%" id="linearGradient-3">
+            <stop stop-color="#5DC9E3" offset="0%"></stop>
+            <stop stop-color="#AF8DD8" offset="97.3573023%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Marketing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(0.000000, -473.000000)">
+            <g id="Path-5-+-Path-5-Copy-Mask" transform="translate(0.000000, 437.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <path d="M-132,83.2378097 C-132,83.2378097 7.39676367,159.594798 321.62494,170.326143 C635.853116,181.057487 741.612491,81.6261746 945.946734,65.0481206 C1150.28098,48.4700666 1272.50903,112.058354 1458.91321,103.29081 C1645.31739,94.5232668 1765,-34.4283086 1765,-98.6886273 C1765,-98.6886273 1760.15295,319.881082 1760.15295,319.881082 L-132,319.881082 L-132,83.2378097 Z" id="Path-5" fill="url(#linearGradient-3)" opacity="0.250339674" mask="url(#mask-2)"></path>
+                <path d="M-826,84.0463438 C-826,84.0463438 -650.155796,160.403332 -253.767801,171.134677 C142.620193,181.866021 276.031994,82.4347087 533.792586,65.8566547 C791.553178,49.2786007 945.739648,112.866888 1180.88208,104.099344 C1416.02452,95.3318009 1567,-33.6197745 1567,-97.8800932 C1567,-97.8800932 1560.88561,320.689616 1560.88561,320.689616 L-826,320.689616 L-826,84.0463438 Z" id="Path-5-Copy" fill="url(#linearGradient-3)" opacity="0.250339674" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="417px" height="291px" viewBox="0 0 417 291" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 9</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-6.2%" y="-10.3%" width="112.5%" height="120.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.279416454   0 0 0 0 0.279416454   0 0 0 0 0.279416454  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Marketing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-719.000000, -1154.000000)">
+            <g id="Group-9" transform="translate(735.000000, 1154.000000)">
+                <rect id="Rectangle-16" fill="#C65F68" opacity="0.150532156" x="6" y="0" width="124.317866" height="291"></rect>
+                <rect id="Rectangle-16-Copy" fill="#D16770" opacity="0.473788496" x="130" y="0" width="124.317866" height="291"></rect>
+                <rect id="Rectangle-16-Copy-2" fill="#BE5C64" x="254" y="0" width="124.317866" height="291"></rect>
+                <g id="Group-5" filter="url(#filter-1)" transform="translate(0.000000, 28.000000)">
+                    <circle id="Oval-2" fill="#FFFFFF" cx="8.5" cy="137.5" r="8.5"></circle>
+                    <circle id="Oval-2-Copy" fill="#FFFFFF" cx="100.5" cy="223.5" r="8.5"></circle>
+                    <circle id="Oval-2-Copy-2" fill="#FFFFFF" cx="194.5" cy="55.5" r="8.5"></circle>
+                    <circle id="Oval-2-Copy-3" fill="#FFFFFF" cx="376.5" cy="8.5" r="8.5"></circle>
+                    <circle id="Oval-2-Copy-4" fill="#FFFFFF" cx="286.5" cy="107.5" r="8.5"></circle>
+                    <polyline id="Path-3" stroke="#FFFFFF" stroke-width="5" points="10.3021215 137.561405 101.969011 226.246153 193.635901 53.7461137 285.302791 109.990106 376.969681 8.2934325"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

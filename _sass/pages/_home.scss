@@ -1,0 +1,295 @@
+[class*=-kubo-container]{
+  @include base-padding;
+  @include outer-container;
+  max-width: 1100px;
+}
+
+[class*=-kubo-wrapper]{
+  background-color: $blue-light;
+
+  &.red-back, &.blue-back, &.blue-dark-back{
+    h3, p {
+      color: $white-base;
+    }
+  }
+
+  &.red-back{
+    background-color: $red-base;
+  }
+
+  &.blue-back{
+    background-color: $blue-base;
+  }
+
+  &.blue-dark-back{
+    background-color: $blue-dark;
+  }
+}
+
+.subheader{
+  border-bottom: 1px solid $grey-light;
+  @include s-big;
+  @include rem(margin, 30px 0px 40px);
+  @include rem(padding-bottom, 30px);
+  font-style: italic;
+}
+
+.content-area{
+  @include media($tablet){
+    @include span-columns(7 of 12);
+    @include shift(5);
+    @include rem(margin-top, $desktop-nav-height);
+  }
+}
+
+.text-only{
+  @include media($tablet){
+    @include rem(margin-top, $desktop-nav-height);
+    @include span-columns(10 of 12);
+    @include shift(1);
+  }
+
+  @include media($tablet-landscape){
+    @include span-columns(7 of 12);
+    @include shift(2.5);
+  }
+}
+
+
+/*-----------------------
+About
+-----------------------*/
+.about-village-container{
+  .text-block{
+    @include media($tablet){
+      @include span-columns(6 of 12);
+    }
+
+    @include media($tablet-landscape){
+      @include rem(margin-top, 20px);
+    }
+  }
+}
+
+/*-----------------------
+Why
+-----------------------*/
+.why-kubo-container{
+
+  .about-block{
+    @include rem(margin-bottom, 30px);
+
+    @include media($tablet){
+      @include span-columns(4 of 12);
+      @include rem(margin-bottom, 0px);
+    }
+
+    img{
+      display: inline-block;
+      @include rem(margin-bottom, 10px);
+      height: 100px;
+      width: inherit;
+    }
+
+    p{
+      @include s-medium;
+      line-height: 30px;
+
+      span{
+        border: 1px solid $yellow-base;
+        color: $yellow-base;
+        @include s-tiny;
+        @include rem(padding, 2px 5px);
+        border-radius: 5px;
+      }
+    }
+
+    &:first-child{
+      img{
+        width: 150px;
+      }
+    }
+  }
+}
+
+/*-----------------------
+How it Works
+-----------------------*/
+.how-it-works-kubo-wrapper{
+  @include media($tablet-landscape){
+    height: 525px;
+  }
+}
+
+.how-block{
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  .text-block{
+    @include media($tablet){
+      @include span-columns(6.4 of 12);
+      @include rem(margin-bottom, 0px);
+      @include shift(0.5);
+    }
+  }
+
+  img{
+    @include rem(margin-bottom, 15px);
+
+    @include media($tablet){
+      @include span-columns(5 of 12);
+      @include rem(margin-bottom, 0px);
+      @include animation(fade-in 0.6s ease-in);
+    }
+  }
+
+  &:nth-child(even){
+    .text-block{
+      @include media($tablet){
+        @include shift(0);
+      }
+    }
+
+    img{
+      @include media($tablet){
+        float: right;
+        @include animation(fade-in 0.6s ease-in);
+        @include shift(0.5);
+        margin-right: 0px;
+      }
+    }
+  }
+}
+
+/*-----------------------
+Contact
+-----------------------*/
+.contact-kubo-container{
+  text-align: center;
+
+  .text-block{
+    max-width: 700px;
+    @include center;
+
+    p{
+      @include rem(margin-bottom, 20px);
+      @include media($tablet){
+        @include center;
+        max-width: 650px;
+      }
+    }
+  }
+}
+
+
+.rms-teaser-kubo-container{
+  @include rem(margin-bottom, 80px);
+
+  .text-block{
+    border-bottom: 1px solid $white-med;
+    @include rem(margin-bottom, 20px);
+    @include rem(padding-bottom, 20px);
+
+    @include media($tablet){
+      border-bottom: none;
+      border-right: 1px solid $white-med;
+      @include span-columns(8 of 12);
+      @include rem(margin-bottom, 0px);
+      @include rem(padding, 0px 20px 0px 0px);
+    }
+
+    img{
+      display: inline-block;
+      width: 65px;
+    }
+
+    h2{
+      display: inline-block;
+      @include rem(margin-left, 10px);
+      vertical-align: 20px;
+    }
+
+    p{
+      @include rem(margin-top, 20px);
+    }
+  }
+
+  .product-features{
+    @include media($tablet){
+      @include span-columns(4 of 12);
+      //position: relative;
+      height: 100%;
+    }
+
+    ul{
+      @include media($tablet){
+        @include vertical-center;
+        padding-left: 5%;
+      }
+
+      li{
+        margin: 10px 0px;
+      }
+    }
+  }
+}
+
+
+
+.how-it-works-kubo-wrapper{
+  clear: both;
+  width: 100%;
+  background-color: white;
+
+  .how-kubo-container{
+    height: 100%;
+  }
+
+  .text-block{
+    @include media($tablet-landscape){
+      @include vertical-center;
+    }
+  }
+
+  .wow{
+    @include media($tablet-landscape){
+      @include vertical-center;
+    }
+  }
+
+  &:nth-child(even){
+    .text-block{
+      @include media($tablet-landscape){
+        margin-left: 0px;
+      }
+    }
+
+    img{
+      @include media($tablet-landscape){
+        margin-right: 0px;
+        right: 0px;
+        @include animation(fade-in 0.6s ease-in);
+      }
+    }
+  }
+
+  &:nth-child(odd){
+    .text-block{
+      @include media($tablet-landscape){
+        left: 43%;
+      }
+    }
+  }
+}
+
+img.wow.animated.align-bottom.animated{
+  bottom: -103px;
+  transform: none;
+  top: inherit;
+}
+
+img.wow.animated.align-top.animated{
+  top: 60px;
+}

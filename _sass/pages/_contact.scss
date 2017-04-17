@@ -1,0 +1,58 @@
+/*-----------------------
+Contact Page
+-----------------------*/
+.contact-header{
+  min-height: 100vh;
+
+  .text-block{
+    @include media($tablet-landscape){
+      @include span-columns(6 of 12);
+      text-align: left;
+    }
+  }
+
+  form{
+    @include rem(margin-top, 30px);
+    text-align: left;
+
+    @include media($tablet-landscape){
+      @include span-columns(6 of 12);
+      @include rem(margin-top, 0px);
+    }
+
+    input{
+      @include rem(margin-bottom, 10px);
+    }
+
+    .button-secondary{
+      min-width: 220px
+    }
+
+  }
+}
+
+.contact-header{
+  position: relative;
+
+  .header-kubo-container{
+    @include media($tablet-landscape){
+      @include rem(margin-top, 50px);
+      @include vertical-horizontal-center;
+      width: 100%;
+    }
+
+    .text-block{
+      @include animation(fade-in 0.6s ease-in);
+
+      @include media($tablet-landscape){
+        @include rem(padding-right, 30px);
+      }
+    }
+
+    form{
+      @include media($tablet-landscape){
+        @include rem(padding-left, 30px);
+      }
+    }
+  }
+}

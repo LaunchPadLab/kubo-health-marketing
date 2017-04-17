@@ -1,0 +1,69 @@
+/*-----------------------
+Footer
+-----------------------*/
+footer{
+  display: inline-block;
+
+  text-align: center;
+  width: 100%;
+
+  p{ @include s-tiny; }
+}
+
+.footer-nav{
+  @include rem(padding, 40px 20px);
+  display: inline-block;
+
+  a{
+    color: $grey-base;
+    @include s-small;
+  }
+}
+
+.footer-menu{
+
+  li{
+    @include media($tablet){
+      display: inline-block;
+      @include rem(margin, 0px 15px);
+    }
+  }
+
+  @include media($tablet-landscape) {
+    display: inline-block;
+  }
+}
+
+/*-----------------------
+Social Media
+-----------------------*/
+.social-media{
+  @include rem(margin-top, 20px);
+
+  li{
+    display: inline-block;
+    @include transition(all 0.3s ease-in-out);
+    opacity: 0.3;
+    width: inherit;
+
+    &:hover{
+      opacity: 0.6;
+    }
+
+    @include media($tablet){
+      @include rem(margin, 0px 5px);
+    }
+  }
+}
+
+/*-----------------------
+Company
+-----------------------*/
+.company{
+  border-top: 1px solid $white-med;
+  @include rem(padding, 20px);
+
+  h6, p{
+    color: $grey-base;
+  }
+}
