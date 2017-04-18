@@ -7,7 +7,7 @@ Network Management
   position: relative;
   @include rem(margin, -40px 20px 0px);
   @include rem(padding, 30px 20px);
-  z-index: 9;
+  z-index: 2;
 
   @include media($tablet){
     @include rem(margin-top, -100px);
