@@ -1,3 +1,5 @@
+console.log('hello');
+
 emailInput = document.getElementById('email');
 submit     = document.getElementById('submit');
 
