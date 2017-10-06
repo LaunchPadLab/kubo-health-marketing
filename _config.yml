@@ -15,8 +15,8 @@ defaults:
   values:
     layout: post
     permalink: "/blog/:title/"
-    Image:
-    Author:
+    Image: 
+    Author: 
 - scope:
     path: ''
     type: pages
