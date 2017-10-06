@@ -1,5 +1,5 @@
 ---
-title: 2017 10 06 Hello World
+title: Hello World
 ---
 
 # Some Header
