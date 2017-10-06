@@ -2,6 +2,7 @@
 title: Quantify Patient Experience
 date: 2017-10-06 15:13:00 Z
 Image: "/uploads/pexels-photo-355728.jpg"
+Author: Arman Ghosh
 ---
 
 # Some Header
