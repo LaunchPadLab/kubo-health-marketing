@@ -1,0 +1,28 @@
+---
+layout: default
+title: Patient Experience Data for Hospitals, ACO’s, and Payors | Kubo Health
+description: Enhance patient outcomes by leveargeing patient experience data throughout the continuum of care.
+---
+
+<header class="network-header page-header">
+  <div class="header-text">
+    <div class="text-block">
+      <h1>Blog</h1>
+      <p>Our platform is built to collaborate and give healthcare networks a powerful way use patient experience data to enhance patient outcomes throughout the continuum of care.</p>
+      <div class="call-to-action">
+        <a href="/contact" class="button-secondary">Get Started</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="blog-index-vs-container">
+  {% for post in site.posts reversed %}
+    <a href="{{ post.url | prepend: site.baseurl }}" class="blog-block">
+      <h6 class="product-news">Product News</h6>
+      <h3>{{ post.title }}</h3>
+      <p>{{ post.content | truncate: 100 }}</p>
+    </a>
+  {% endfor %}
+</section>
+
