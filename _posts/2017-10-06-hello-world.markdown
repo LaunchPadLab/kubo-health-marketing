@@ -1,7 +1,7 @@
 ---
 title: Hello World
 date: 2017-10-06 14:55:00 Z
-Hero Image: 
+Image: "/uploads/medical-appointment-doctor-healthcare-40568.jpg"
 ---
 
 # Some Header
