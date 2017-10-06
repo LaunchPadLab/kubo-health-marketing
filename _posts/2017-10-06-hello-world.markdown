@@ -1,7 +1,8 @@
 ---
 title: Hello World
 date: 2017-10-06 14:55:00 Z
-Hero Image: 
+Image:
+Author:
 ---
 
 # Some Header

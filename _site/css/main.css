@@ -230,22 +230,16 @@ i, em {
 
 .link-primary {
   color: #5DC9E3;
-  border-bottom: 2px solid #5DC9E3;
   display: inline-block;
-  font-size: 12px;
-  font-size: 0.85714rem;
+  font-size: 17px;
+  font-size: 1.21429rem;
+  line-height: normal;
   font-family: "Avenir", sans-serif;
   font-style: normal;
   font-weight: 700;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  margin-top: 15px;
-  margin-top: 1.07143rem;
-  padding-bottom: 3px;
-  padding-bottom: 0.21429rem;
-  letter-spacing: 2px;
-  text-transform: uppercase; }
+  transition: all 0.3s ease-in-out; }
   .link-primary:hover {
     color: #5DC9E3;
     opacity: 0.6; }
@@ -296,22 +290,16 @@ i, em {
 
 .link-secondary {
   color: #AF8DD8;
-  border-bottom: 2px solid #AF8DD8;
   display: inline-block;
-  font-size: 12px;
-  font-size: 0.85714rem;
+  font-size: 17px;
+  font-size: 1.21429rem;
+  line-height: normal;
   font-family: "Avenir", sans-serif;
   font-style: normal;
   font-weight: 700;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  margin-top: 15px;
-  margin-top: 1.07143rem;
-  padding-bottom: 3px;
-  padding-bottom: 0.21429rem;
-  letter-spacing: 2px;
-  text-transform: uppercase; }
+  transition: all 0.3s ease-in-out; }
   .link-secondary:hover {
     color: #AF8DD8;
     opacity: 0.6; }
@@ -362,22 +350,16 @@ i, em {
 
 .link-secondary2 {
   color: #FFFFFF;
-  border-bottom: 2px solid #FFFFFF;
   display: inline-block;
-  font-size: 12px;
-  font-size: 0.85714rem;
+  font-size: 17px;
+  font-size: 1.21429rem;
+  line-height: normal;
   font-family: "Avenir", sans-serif;
   font-style: normal;
   font-weight: 700;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  margin-top: 15px;
-  margin-top: 1.07143rem;
-  padding-bottom: 3px;
-  padding-bottom: 0.21429rem;
-  letter-spacing: 2px;
-  text-transform: uppercase; }
+  transition: all 0.3s ease-in-out; }
   .link-secondary2:hover {
     color: #FFFFFF;
     opacity: 0.6; }
@@ -1705,3 +1687,6 @@ Contact Page
     .contact-header .header-kubo-container form {
       padding-left: 30px;
       padding-left: 2.14286rem; } }
+
+.post-teaser h1, .post-teaser h2, .post-teaser h3, .post-teaser img {
+  display: none; }

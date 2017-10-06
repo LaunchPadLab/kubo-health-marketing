@@ -75,15 +75,11 @@
   // Links
   .link-#{$type}{
     color: $bg-1;
-    border-bottom: 2px solid $bg-1;
     display: inline-block;
-    @include s-small;
+    @include s-medium;
     @include font-type($primary-sans-serif, normal, $bold);
     @include transition(all 0.3s ease-in-out);
-    @include rem(margin-top, 15px);
-    @include rem(padding-bottom, 3px);
-    letter-spacing: 2px;
-    text-transform: uppercase;
+    //@include rem(margin-top, 15px);
 
     &:hover{
       color: $bg-1;

@@ -16,12 +16,16 @@ description: Enhance patient outcomes by leveargeing patient experience data thr
   </div>
 </header>
 
-<section class="blog-index-vs-container">
+<section class="blog-index-kubo-container">
   {% for post in site.posts reversed %}
     <a href="{{ post.url | prepend: site.baseurl }}" class="blog-block">
       <h6 class="product-news">Product News</h6>
+      <img src="{{ page.image }}">
       <h3>{{ post.title }}</h3>
-      <p>{{ post.content | truncate: 100 }}</p>
+      <div class="post-teaser">
+        {{ post.content | truncate: 300 }}
+      </div>
+      <p class="link-secondary">Read More</p>
     </a>
   {% endfor %}
 </section>
