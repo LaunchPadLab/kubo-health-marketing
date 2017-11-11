@@ -4,12 +4,23 @@
     <title>Kubo Health</title>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 06 Oct 2017 15:12:21 +0000</pubDate>
-    <lastBuildDate>Fri, 06 Oct 2017 15:12:21 +0000</lastBuildDate>
+    <pubDate>Sat, 11 Nov 2017 23:17:15 +0000</pubDate>
+    <lastBuildDate>Sat, 11 Nov 2017 23:17:15 +0000</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>Hello World</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat convallis mauris, eu mollis tortor maximus ut. Nullam condimentum ac leo a bibendum. Curabitur in nibh sed mauris cursus sollicitudin ac non ipsum. Proin nec lorem nisl. Quisque at diam non libero tempus pulvinar id et sem. Mauris eu dignissim eros. Praesent vel condimentum mi. Nullam gravida egestas odio quis efficitur. Donec aliquet vestibulum viverra. Nunc congue sit amet metus vitae hendrerit.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 06 Oct 2017 15:23:00 +0000</pubDate>
+        <link>/blog/hello-world/</link>
+        <guid isPermaLink="true">/blog/hello-world/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Quantify Patient Experience</title>
         <description>&lt;h1 id=&quot;some-header&quot;&gt;Some Header&lt;/h1&gt;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat convallis mauris, eu mollis tortor maximus ut. Nullam condimentum ac leo a bibendum. Curabitur in nibh sed mauris cursus sollicitudin ac non ipsum. Proin nec lorem nisl. Quisque at diam non libero tempus pulvinar id et sem. Mauris eu dignissim eros. Praesent vel condimentum mi. Nullam gravida egestas odio quis efficitur. Donec aliquet vestibulum viverra. Nunc congue sit amet metus vitae hendrerit.&lt;/p&gt;
@@ -62,9 +73,9 @@
 
 &lt;p&gt;&lt;img src=&quot;/uploads/Banner-1500x500.png&quot; alt=&quot;Banner-1500x500.png&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Fri, 06 Oct 2017 14:55:00 +0000</pubDate>
-        <link>/posts/hello-world/</link>
-        <guid isPermaLink="true">/posts/hello-world/</guid>
+        <pubDate>Fri, 06 Oct 2017 15:13:00 +0000</pubDate>
+        <link>/blog/quantify-patient-experience/</link>
+        <guid isPermaLink="true">/blog/quantify-patient-experience/</guid>
         
         
       </item>
